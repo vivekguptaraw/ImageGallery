@@ -12,6 +12,19 @@
 		462510A3202613D20015E8A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462510A1202613D20015E8A2 /* Main.storyboard */; };
 		462510A5202613DA0015E8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462510A4202613DA0015E8A2 /* Assets.xcassets */; };
 		462510A8202613DB0015E8A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462510A6202613DB0015E8A2 /* LaunchScreen.storyboard */; };
+		46318C0D202F6AAC00C1A089 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46318C0C202F6AAC00C1A089 /* UIImageView+Extension.swift */; };
+		46366EB0203056400062713E /* ImageCollectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46366EAF203056400062713E /* ImageCollectionViewController.storyboard */; };
+		46366EB220305D290062713E /* HandsomeImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46366EB120305D290062713E /* HandsomeImageGallery.swift */; };
+		46366EB420305EC80062713E /* ImageLoadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46366EB320305EC80062713E /* ImageLoadManager.swift */; };
+		46366EB6203062F00062713E /* ImageDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46366EB5203062F00062713E /* ImageDownloadOperation.swift */; };
+		46366EBC20306CFD0062713E /* ImageZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46366EBB20306CFD0062713E /* ImageZoomViewController.swift */; };
+		46366EBF203072AF0062713E /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46366EBD203072AF0062713E /* ImageCollectionCell.swift */; };
+		46366EC0203072AF0062713E /* ImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46366EBE203072AF0062713E /* ImageCollectionCell.xib */; };
+		46366EC22030739C0062713E /* ImageZoomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46366EC12030739C0062713E /* ImageZoomUIView.swift */; };
+		46366EC4203073C20062713E /* ImageZoomUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46366EC3203073C20062713E /* ImageZoomUIView.xib */; };
+		463BFD612037D91F003F3E61 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463BFD602037D91F003F3E61 /* Data+Extension.swift */; };
+		464EEC1B202ECD7E00116D44 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464EEC1A202ECD7E00116D44 /* FlowLayout.swift */; };
+		464EEC1D202ECF3D00116D44 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464EEC1C202ECF3D00116D44 /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,21 @@
 		462510A4202613DA0015E8A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		462510A7202613DB0015E8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		462510A9202613E10015E8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46318C0C202F6AAC00C1A089 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		46366EAF203056400062713E /* ImageCollectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageCollectionViewController.storyboard; sourceTree = "<group>"; };
+		46366EB120305D290062713E /* HandsomeImageGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsomeImageGallery.swift; sourceTree = "<group>"; };
+		46366EB320305EC80062713E /* ImageLoadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadManager.swift; sourceTree = "<group>"; };
+		46366EB5203062F00062713E /* ImageDownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadOperation.swift; sourceTree = "<group>"; };
+		46366EB720306A900062713E /* ImageViewer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageViewer-Bridging-Header.h"; sourceTree = "<group>"; };
+		46366EBA20306AB80062713E /* CustomObjectsObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomObjectsObjc.h; sourceTree = "<group>"; };
+		46366EBB20306CFD0062713E /* ImageZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageZoomViewController.swift; sourceTree = "<group>"; };
+		46366EBD203072AF0062713E /* ImageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
+		46366EBE203072AF0062713E /* ImageCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionCell.xib; sourceTree = "<group>"; };
+		46366EC12030739C0062713E /* ImageZoomUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageZoomUIView.swift; sourceTree = "<group>"; };
+		46366EC3203073C20062713E /* ImageZoomUIView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageZoomUIView.xib; sourceTree = "<group>"; };
+		463BFD602037D91F003F3E61 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		464EEC1A202ECD7E00116D44 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		464EEC1C202ECF3D00116D44 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,21 @@
 				462510A4202613DA0015E8A2 /* Assets.xcassets */,
 				462510A6202613DB0015E8A2 /* LaunchScreen.storyboard */,
 				462510A9202613E10015E8A2 /* Info.plist */,
+				464EEC1A202ECD7E00116D44 /* FlowLayout.swift */,
+				464EEC1C202ECF3D00116D44 /* UIViewController+Extension.swift */,
+				46318C0C202F6AAC00C1A089 /* UIImageView+Extension.swift */,
+				46366EAF203056400062713E /* ImageCollectionViewController.storyboard */,
+				46366EB120305D290062713E /* HandsomeImageGallery.swift */,
+				46366EB320305EC80062713E /* ImageLoadManager.swift */,
+				46366EB5203062F00062713E /* ImageDownloadOperation.swift */,
+				46366EB720306A900062713E /* ImageViewer-Bridging-Header.h */,
+				46366EBA20306AB80062713E /* CustomObjectsObjc.h */,
+				46366EBB20306CFD0062713E /* ImageZoomViewController.swift */,
+				46366EBD203072AF0062713E /* ImageCollectionCell.swift */,
+				46366EBE203072AF0062713E /* ImageCollectionCell.xib */,
+				46366EC12030739C0062713E /* ImageZoomUIView.swift */,
+				46366EC3203073C20062713E /* ImageZoomUIView.xib */,
+				463BFD602037D91F003F3E61 /* Data+Extension.swift */,
 			);
 			path = ImageViewer;
 			sourceTree = "<group>";
@@ -96,6 +139,7 @@
 				TargetAttributes = {
 					46251099202613C80015E8A2 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,8 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				462510A8202613DB0015E8A2 /* LaunchScreen.storyboard in Resources */,
+				46366EC4203073C20062713E /* ImageZoomUIView.xib in Resources */,
+				46366EB0203056400062713E /* ImageCollectionViewController.storyboard in Resources */,
 				462510A5202613DA0015E8A2 /* Assets.xcassets in Resources */,
 				462510A3202613D20015E8A2 /* Main.storyboard in Resources */,
+				46366EC0203072AF0062713E /* ImageCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46366EB220305D290062713E /* HandsomeImageGallery.swift in Sources */,
+				46318C0D202F6AAC00C1A089 /* UIImageView+Extension.swift in Sources */,
+				464EEC1D202ECF3D00116D44 /* UIViewController+Extension.swift in Sources */,
+				46366EBF203072AF0062713E /* ImageCollectionCell.swift in Sources */,
+				46366EC22030739C0062713E /* ImageZoomUIView.swift in Sources */,
+				463BFD612037D91F003F3E61 /* Data+Extension.swift in Sources */,
+				46366EBC20306CFD0062713E /* ImageZoomViewController.swift in Sources */,
+				46366EB6203062F00062713E /* ImageDownloadOperation.swift in Sources */,
 				462510A0202613CD0015E8A2 /* ViewController.swift in Sources */,
+				464EEC1B202ECD7E00116D44 /* FlowLayout.swift in Sources */,
 				4625109E202613CB0015E8A2 /* AppDelegate.swift in Sources */,
+				46366EB420305EC80062713E /* ImageLoadManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +331,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ImageViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ImageViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ImageViewer/CustomObjectsObjc.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +348,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ImageViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ImageViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ImageViewer/CustomObjectsObjc.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
