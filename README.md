@@ -4,4 +4,4 @@ This is ImageGallery made in swift with feature of swipe to close to exact locat
 
 # Screenrecorded Gif's
 Portrait - [Imgur](https://i.imgur.com/WfiddgE.gifv)
-Landscape - [Imgur](https://i.imgur.com/hex8YMh.gifv)
+Landscape - [Imgur](https://i.imgur.com/FJcrJ8W.gifv)
